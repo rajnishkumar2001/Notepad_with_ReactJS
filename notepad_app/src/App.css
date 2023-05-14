@@ -1,0 +1,138 @@
+.App {
+  text-align: center;
+}
+
+body {
+  background-color: bisque;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.notepad-card {
+  margin: 5px;
+  border: 2px solid black;
+  padding: 5px;
+  left: 167px;
+  position: relative;
+  display: block;
+  background-color: antiquewhite;
+  height: 600px;
+  overflow: auto;
+}
+
+.main {
+  background-color: bisque;
+}
+
+.main button {
+  margin-left: 9px;
+  border-radius: 15px;
+  height: 34px;
+  width: 100px;
+}
+
+
+
+@keyframes spinner {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.loading-spinner {
+  left: 36rem;
+  bottom: -19rem;
+  position: relative;
+  width: 50px;
+  height: 50px;
+  border: 10px solid #f3f3f3;
+  /* Light grey */
+  border-top: 10px solid #383636;
+  /* Black */
+  border-radius: 50%;
+  animation: spinner 1.5s linear infinite;
+}
+
+.navbar-default {
+  background-color: #ec2020;
+}
+
+.bg-custom-1 {
+  background-color: #85144b;
+}
+
+.bg-custom-2 {
+  background-image: linear-gradient(15deg, #13547a 0%, #80d0c7 100%);
+}
+
+.notepadlink {
+  position: relative;
+  color: #fff;
+  background-color: gray;
+  border-radius: 8px;
+  display: inline-block;
+  width: 12rem;
+  height: 2rem;
+  padding-top: 3px;
+  text-decoration: none;
+  top: 8rem;
+  right: 7rem;
+}
+.searchquerylink{
+  position: relative;
+  color: #fff;
+  background-color: gray;
+  border-radius: 8px;
+  display: inline-block;
+  width: 12rem;
+  height: 2rem;
+  padding-top: 3px;
+  text-decoration: none;
+  top: 8rem;
+}
+.searchquerylink:hover{
+  background-color: #fff;
+  color: #000
+}
+.notepadlink:hover{
+  background-color: #fff;
+  color: #000
+}

@@ -1,0 +1,63 @@
+.mainDiv{
+    background-color: azure;
+    width: 30rem;
+    height: 24rem;
+    align-items: center;
+    left: 34rem;
+    top: 7rem;
+    position: relative;
+    display: block;
+    border: 1px solid black;
+    border-radius: 12px;
+}
+.tag{
+    margin: 2rem;
+    right: 16px;
+    position: relative;
+}
+.mainDiv h1{
+    left: 7rem;
+    position: relative;
+    margin: 20px;
+}
+.value{
+    left: 35px;
+    position: relative;
+    margin-bottom: 1rem;
+}
+.value label{
+    font-size: 17px;
+    margin-right: 11px
+}
+.value input[type="email"], input[type="text"], input[type="password"]{
+    right: 2rem;
+    float: right;
+    border: 1px solid black;
+    border-radius: 10px;
+    position: relative;
+    background-color: azure;
+    padding-left: 10px;
+}
+.checkbox{
+    position: relative;
+    left: 34px;
+}
+.checkbox label{
+    position: relative;
+    left: 12px;
+}
+.tag button{
+    position: relative;
+    left: 151px;
+}
+.tag button:hover{
+    background-color: azure;
+}
+.clickhere{
+    margin-top: 13px;
+    position: relative;
+    left: 34px;
+}
+.fa{
+    margin-right: 5px;
+}
